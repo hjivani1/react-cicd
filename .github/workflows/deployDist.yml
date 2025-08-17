@@ -15,7 +15,7 @@ jobs:
                 node-version: 20
 
             - name: Print Node version
-              run: node --v
+              run: node -v
 
             - name: Install dependencies
               run: npn ci
